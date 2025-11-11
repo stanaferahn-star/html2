@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+  </head>
+
+  <body>
+    <!-- ===== HEADER & NAVBAR ===== -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== HOME SECTION ===== -->
+    <section id="home">
+        <h2>Welcome!</h2>
+        <p>
+            Hello, I’m <strong>Alex Johnson</strong>, a passionate web developer
+            specializing in creating modern and user-friendly websites.
+        </p>
+        <!-- Embedded video -->
+        <video width="400" controls>
+            <source src="intro-video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I’m a front-end developer with a love for clean design, accessibility,
+            and responsive layouts.
+        </p>
+        <p>Here are a few of my favorite tools and technologies:</p>
+        <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript & React</li>
+            <li>Node.js & Express</li>
+            <li>Git & GitHub</li>
+        </ul>
+        <!-- Embedded audio -->
+        <audio controls>
+            <source src="background-music.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- ===== WORK SECTION ===== -->
+    <section id="work">
+        <h2>My Work</h2>
+        <article>
+            <h3>Project 1: Portfolio Website</h3>
+            <p>
+            A responsive personal portfolio showcasing my projects and experience.
+            </p>
+        </article>
+
+        <article>
+            <h3>Project 2: Restaurant Landing Page</h3>
+            <p>
+            A stylish landing page designed for a fictional restaurant using HTML
+            and CSS.
+            </p>
+        </article>
+
+        <article>
+            <h3>Project 3: E-commerce Demo</h3>
+            <p>A simple online shop built with React and mock API data.</p>
+        </article>
+    </section>
+
+    <!-- ===== RESUME SECTION ===== -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Here’s a quick summary of my experience and education:</p>
+
+        <table border="1" cellpadding="5">
+            <thead>
+            <tr>
+                <th>Year</th>
+                <th>Position</th>
+                <th>Organization</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>2023 - Present</td>
+                <td>Front-End Developer</td>
+                <td>WebTech Studio</td>
+            </tr>
+            <tr>
+                <td>2021 - 2023</td>
+                <td>Junior Developer</td>
+                <td>CodeWorks Inc.</td>
+            </tr>
+            <tr>
+                <td>2018 - 2021</td>
+                <td>Bachelor in Computer Science</td>
+                <td>City University</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Have a project in mind? Let’s get in touch!</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" required /><br /><br />
+
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required /><br /><br />
+
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" rows="4" required></textarea
+            ><br /><br />
+
+            <input type="submit" value="Send Message" />
+        </form>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>&copy; 2025 Alex Johnson | All Rights Reserved</p>
+        <p><a href="#home">Back to Top</a></p>
+    </footer>
+  </body>
+</html>
