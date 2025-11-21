@@ -1,0 +1,138 @@
+:root {
+  --main-color: #4a90e2;
+  --dark-color: #1f1f1f;
+  --light-gray: #f4f4f4;
+  --text-color: #333;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background: var(--light-gray);
+  color: var(--text-color);
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  background: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--main-color);
+}
+
+.nav-list {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--dark-color);
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--main-color);
+}
+
+.section {
+  padding: 70px 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--main-color);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.resume-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.resume-table th,
+.resume-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-field,
+.textarea-field {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submit-btn {
+  background: var(--main-color);
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #357ac8;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  background: var(--dark-color);
+  color: white;
+}
+
+.back-to-top {
+  color: var(--main-color);
+  text-decoration: none;
+}
